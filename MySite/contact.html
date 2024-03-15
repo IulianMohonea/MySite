@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="trying.css" type="text/css">
+  
+    <title>Contact</title>
+
+    <script src="trying.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="startbar" style=" margin:auto; width:1000px;text-align:left">
+       
+        <nav>
+            
+            
+                <a href="./trying.html">Home &nbsp;</a>
+                <a href="./aboutme.html">About me &nbsp;</a>
+                <a href="./achievements.html">Achievements &nbsp;</a>
+                <a href="./socials.html">Socials &nbsp;</a>
+                <a href="./contact.html">Contact &nbsp;</a>
+                <a href="./canvas.html">Ceva fun &nbsp;</a>
+                <button id="nightModeButton" onclick="NightMode(event)">Night Mode</button>
+        
+        </nav>
+        </div>
+  </header>
+  <div class="content">
+    <body>
+      <h1>Formular pentru contact</h1>
+    
+      <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Nume:</label>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+    
+        <label for="phone">Telefon:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+    
+        <input type="submit" value="Trimite">
+      </form>
+    
+      <div id="dogImageContainer">
+        <img id="dogImage" src="https://www.mundoperros.es/wp-content/uploads/2017/12/perro-blanco-triste.jpg" alt="Imagine Câine">
+      </div>
+      <div id="formContainer"></div>
+      
+        <script src="trying.js"></script>
+    </body>
+</div>
+    <!-- acesta este un comentariu -->
+  
+
+
+</html>
